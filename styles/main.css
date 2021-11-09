@@ -1,4 +1,9 @@
-main .results-state {
+main {
+    font-size: 14px;
+    color: rgb(32, 33, 36);
+}
+
+main #results-state {
     font-size: 11px;
     color: #70757a;
     margin-left: 173px;
@@ -6,4 +11,224 @@ main .results-state {
     flex-direction: row;
     align-items: center;
     height: 35px;
+}
+
+main .results {
+    position: relative;
+    right: 110px;
+    height: 50vh;
+    width: 523px;
+    margin: auto;
+    display: block;
+}
+
+main .results .main-result {
+    margin-bottom: 46px;
+}
+
+main .results .main-result .slides .slides-section .slide {
+    margin: 0 1px;
+    margin-bottom: 8px;
+}
+
+main .results .main-result .slides .slides-section .slide:first-child {
+    margin: 0 1px 0 0;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+}
+
+main .results .main-result .slides .slides-btn {
+    position: absolute;
+    top: 3.5px;
+    height: 180px;
+    width: 25px;
+    background-color: #0000;
+    color: #0000;
+    border: none;
+    border-radius: 5px;
+}
+
+main .results .main-result .slides:hover .slides-btn {
+    background-color: #11141665;
+    color: #eeeeee55;
+}
+
+main .results .main-result .slides .slides-btn:hover {
+    background-color: #11141695;
+    color: #eee;
+}
+
+main .results .main-result .slides .slides-btn:active {
+    background-color: #eeeeee95;
+    color: #111416a5;
+}
+
+main .results .main-result .slides .slides-btn:focus {
+    outline: none;
+}
+
+main .results .main-result .slides .slides-btn.slides-btn-prev {
+    left: 4px;
+}
+
+main .results .main-result .slides .slides-btn.slides-btn-next {
+    right: 4px;
+}
+
+main .results .main-result .list {
+    margin-top: 7px;
+}
+
+main .results .main-result .list ul {
+    margin-bottom: 14px;
+}
+
+main .results .main-result .list ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 15px;
+    font-size: 13px;
+    list-style: disc;
+}
+
+main .results .main-result .list .more-and-data {
+    font-size: 12px;
+    margin: 4px 0 14px 0;
+}
+
+main .results .main-result .list .more-and-data a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a0dab;
+}
+
+main .results .main-result .list .more-and-data span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #70757a;
+}
+
+main .results .main-result .link-container .link-click {
+    cursor: pointer;
+}
+
+main .results .main-result .link-container .link-click:hover h3 {
+    text-decoration: underline;
+}
+
+main .results .main-result .link-container .link-click .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+main .results .main-result .link-container .link-click .link span {
+    color: #202124;
+}
+
+main .results .main-result .link-container .link-click .link #lists {
+    color: #5f6368;
+}
+
+main .results .main-result .link-container .link-click h3 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a0dab;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+main .results .main-result .link-container .bottom-link {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 9.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .results .main-result .link-container .bottom-link .splitter {
+    width: 270px;
+    border-bottom: 1px solid rgb(218, 220, 224);
+}
+
+main .results .main-result .link-container .bottom-link .options {
+    margin-left: 12px;
+}
+
+main .results .main-result .link-container .bottom-link .options a, span {
+    color: #70757a;
+}
+
+main .results .main-result .link-container .bottom-link .options span {
+    margin: 0 8px;
+}
+
+main .results .main-result .link-container .bottom-link .options a i {
+    margin-right: 6px;
+}
+
+main .results .main-result .link-container .bottom-link .options a:hover {
+    text-decoration: underline;
+}
+
+main .results .other-results .result {
+    margin-bottom: 28px;
+}
+
+main .results .other-results .result .link-click {
+    cursor: pointer;
+}
+
+main .results .other-results .result .link-click:hover h3 {
+    text-decoration: underline;
+}
+
+main .results .other-results .result .link-click .link span {
+    color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+main .results .other-results .result .link-click .link .dir {
+    color: #5f6368;
+}
+
+main .results .other-results .result .link-click .link .dir i {
+    position: relative;
+    left: 5px;
+    bottom: 2px;
+}
+
+main .results .other-results .result .link-click h3 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a0dab;
+    font-weight: 400;
+    padding-top: 5px;
+    margin-bottom: 3px;
+}
+
+main .results .other-results .result .link-click h3.clicked {
+    color: rgb(102, 0, 153)
+}
+
+main .results .other-results .result .data-and-description {
+    font-size: 11.5px
+}
+
+main .results .other-results .result .data-and-description .data {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757a;
+}
+
+main .results .other-results .result .data-and-description .description {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d5156;
+    font-weight: 500;
+}
+
+main .results .other-results .result .data-and-description .description b {
+    font-weight: 800;
+    color: #606064;
 }

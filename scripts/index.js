@@ -8,7 +8,7 @@ document.addEventListener('click', ( { target } ) => {
         return;
     }
 
-    if(parentDiv && parentDiv.classList.contains('nav')) {   
+    if(parentDiv && parentDiv.classList && parentDiv.classList.contains('nav')) {   
     
         const parentLi = target.parentNode;
 
